@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+        
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=DynaPuff:wght@400..700&family=Honk&family=Love+Ya+Like+A+Sister&family=Rufina:wght@400;700&family=Unkempt:wght@400;700&display=swap');
+
+    body{
+        background-color: #B3B2AE;
+    }
+        header {
+            background-image: linear-gradient(to top, #8C704F, #BFAA84);
+            text-align: center;
+            margin: -8px;
+            font-family: DynaPuff;
+        }
+        header > p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: normal;
+            margin-top: -8px;
+            color: white;
+        }
+        header > h1 {
+            margin-top: 5px;
+            color: white;
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.321);
+            
+        }
+        header > nav {
+            background-color: #733816;
+            text-align: left;
+            padding: 5px;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.56);
+        }
+        header > img.fotoprincipal {
+            border-radius: 5px;
+            margin-top: 20px;
+            width: auto;
+        }
+        
+        header > nav > a {
+            text-decoration: none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 5px;
+            padding: 5px;
+            
+        }
+        header > nav > a:hover {
+            background-color: #592512;
+            color: #a9cad4;
+            text-decoration: none;
+            border-radius: 5px;
+            transition-duration: 0.5s;
+        }
+        header > nav > a:active {
+            background-color: #13110E;
+            color: #ffffff;
+            text-decoration: none;
+        }
+        header > nav > a:visited {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        main {
+            background-color: white;
+            margin: 20px auto 20px auto;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.321);
+            padding: 5px 20px;
+            min-width: 320px;
+            max-width: 800px;
+            border-radius: 10px;
+            text-align: justify;
+        }
+        main > article {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+        }
+        main > article > p {
+            text-indent: 1em;
+            text-align: justify;
+            line-height: 1.5em
+        }
+        img {
+            width: 100%;
+        }
+        h2.principal {
+            font-family: Rufina;
+            background-image: linear-gradient(to right, rgba(153, 153, 153, 0.804), transparent);
+            padding: 5px;
+            font-size: x-large;
+        }
+        div.video {
+            background-color: #572f16;
+            margin: 0 -20px 30px -20px;
+            padding: 20px;
+            position: relative;
+            padding-bottom: 59%;
+            border-radius: 10px;
+        }
+        div.video > video {
+            position: absolute;
+            top: 5%;
+            left: 7%;
+            width: 85%;
+            height: 88%;
+            
+        }
+        aside{
+            background-color: #733816;
+            border-radius: 10px;
+        }
+        aside > nav {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #592512;
+            border-radius: 5px;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            box-shadow: 10px rgba(0, 0, 0, 0.547);
+        }
+        aside > ul{
+            columns: 2;
+            list-style-type: '\2714';
+        }
+        aside > ul > li > a{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-decoration: none;
+            color: white;
+            font-size: small;
+            transition-duration: 0.5s;
+            border-radius: 4px;
+        }
+        aside > ul > li > a::before{
+            color: white;
+        }
+        aside > ul > li > a::after{
+            color: white;
+        }
+        aside > ul > li > a:hover{
+            text-decoration: none;
+            background-color: #a35728;
+            color: white;
+        }
+        aside > ul > li > a:active{
+            text-decoration: none;
+            color: white;
+            background-color: #a35728;
+        }
+        aside > ul > li > a:visited{
+            text-decoration: none;
+            color: white;
+            background-color: #a35728;
+        }
+        footer {
+            background-color: #572f16;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            margin-bottom: -16px;
+            border-radius: 10px;
+        }

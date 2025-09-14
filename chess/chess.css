@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Judson:ital,wght@0,400;0,700;1,400&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root{
+    --cor0: #A6662E;
+    --cor1: #D99559;
+    --cor2: #D9A577;
+    --cor3: #401D09;
+    --cor4: #734226;
+
+    --fontepadrao: Arial, Helvetica, sans-serif;
+    --fonteheader: Roboto;
+    --fontetitulo: Lato;
+}
+
+body{
+    background-color: var(--cor2);
+}
+header{
+    background-color: var(--cor0);
+    width: auto;
+    height: auto;
+    margin: -9px;
+    margin-top: -10px;
+}
+header > img {
+    padding: 14px 10px;
+    display: block;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: -10px;
+    margin-left: auto;
+    border-radius: 19px;
+}
+header > p {
+    padding-bottom: 5px;
+    font-family: var(--fontepadrao);
+    text-align: center;
+    margin-top: -5px;
+}
+h1#principal{
+    font-family: var(--fonteheader);
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 11px;
+    margin-bottom: 28px;
+}
